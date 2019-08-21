@@ -1,0 +1,10 @@
+.view {
+    box-sizing: border-box;
+    margin: 8px;
+    padding: 12px;
+    background-color: #0004;
+    border-radius: 4px;
+    font-size: 2em;
+    text-align: right;
+    overflow: hidden;
+}
