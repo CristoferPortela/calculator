@@ -1,5 +1,5 @@
 .all {
-    height: 500px;
+    height: 260px;
     width: 400px;
     border-radius: 5px;
     overflow: hidden;
@@ -11,4 +11,18 @@
 .buttons {
     display: grid;
     grid-template-columns: 70% 30%;
+}
+.buttons .numbers {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(4, auto);
+    padding-right: 7px;
+    grid-gap: 3px
+}
+.buttons .operations {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(4, auto);
+    padding-left: 7px;
+    grid-gap: 3px;
 }
